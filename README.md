@@ -97,3 +97,23 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
+
+## Helpful commands
+
+Create new resource
+
+```bash
+$ npx nest g resource post
+```
+
+Init database with postgresql
+
+```bash
+$ npx prisma prisma init --datasource-provider postgresql
+```
+
+Create database with first migration
+
+```bash
+$ npx prisma migrate dev --name init
+```
